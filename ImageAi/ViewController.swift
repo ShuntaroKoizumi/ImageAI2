@@ -41,11 +41,11 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         
         photoDisplayImageView.image = resizedImage
         picker.dismiss(animated: true, completion: nil)
-        imageInference(image: resizedImage!)
+        detectImageObject(image: resizedImage!)
     }
     
     //画像推定
-    func imageInference(image: UIImage) {
+    func detectImageObject(image: UIImage) {
         guard let model = try? VNCoreMLModel(for: Resnet50().model) else {
             fatalError("モデルをロードできません")
         }
