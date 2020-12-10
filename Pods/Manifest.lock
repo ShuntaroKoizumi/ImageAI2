@@ -1,0 +1,16 @@
+PODS:
+  - NYXImagesKit (2.3)
+
+DEPENDENCIES:
+  - NYXImagesKit
+
+SPEC REPOS:
+  trunk:
+    - NYXImagesKit
+
+SPEC CHECKSUMS:
+  NYXImagesKit: 8163e3335a40eaa173ca5bbbf81fafb57d3947eb
+
+PODFILE CHECKSUM: d594cb24dac6cf745a0e8d9340ed8d9f6b3bc146
+
+COCOAPODS: 1.8.4
